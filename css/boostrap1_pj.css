@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    padding:0;
+    background-size: 100% 100vh;
+}
+.navbar-brand>img{
+    margin-left: 40px;
+}
+
+.nav{
+    background-color: rgb(235, 235, 51) !important;
+    height:39px;
+}
+  
+.nav-link{
+      margin-left:50px;  
+      position: relative;
+      bottom:10px;
+  }
+  
+.nav-link:hover{
+      background-color: blue;
+}
+
+.border1{
+    border-radius: 50%;
+    background-color: rgb(87, 87, 216);
+    width:20px;
+    height:20px;
+    float:left;
+    position: relative;
+    left:600px;
+    top:-1px;
+}
+
+.border2{
+    border-radius: 50%;
+    background-color: blue;
+    width:20px;
+    height:20px;
+    float:left;
+    position: relative;
+    left:610px;
+    top:-1px;
+}
+
+.border3{
+    border-radius: 50%;
+    background-color: rgb(87, 87, 216);
+    width:20px;
+    height:20px;
+    float:left;
+    position: relative;
+    left:620px;
+    top:-1px;
+}
+
+.border4{
+    border-radius: 50%;
+    background-color: rgb(87, 87, 216);
+    width:20px;
+    height:20px;
+    float:left;
+    position: relative;
+    left:630px;
+    top:-1px;
+}
+
+#circle{
+    border-radius: 50%;
+    background-color: blue;
+    width:30px;
+    height:30px;
+    position: relative;
+    right:550px;
+    top:5px;
+    box-shadow: 2px 2px 2px 3px yellow;
+}
+
+span{
+    padding-left:10px;
+    padding-top:2px;
+}
+
+.container-fluid{
+    overflow: hidden;
+}
+
+h2::after{
+    border-bottom: 2px solid red;
+}
